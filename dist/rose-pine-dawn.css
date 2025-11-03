@@ -361,6 +361,16 @@ CONFIGURATION 📝‼️
     background-color: var(--highlightMed) !important;
 }
 
+/* Channel toolbar icons (Open Chat, Create Invite, Edit Channel) */
+.children__2ea32 .actionIcon_c69b6d {
+    color: var(--muted) !important;
+}
+
+.children__2ea32 .iconItem_c69b6d:hover .actionIcon_c69b6d {
+    color: var(--text) !important;
+}
+
+
 /* ---------------------------- Main Chat Area ---------------------------- */
 
 .chatContent_f75fb0 {
@@ -424,8 +434,8 @@ CONFIGURATION 📝‼️
     color: var(--text) !important;
 }
 
-.markup__75297 a {
-    color: var(--foam) !important;
+.markup__75297 {
+    color: var(--text) !important;
 }
 
 .newMessagesBar__0f481 {
@@ -788,6 +798,10 @@ rect[mask="url(#svg-mask-status-idle)"] {
     background-color: var(--overlay) !important;
 }
 
+.button_e131a9 svg path {
+    fill: var(--text) !important;
+}
+
 
 /* Screen Share */
 .panel__5dec7.activityPanel_c48ade {
@@ -877,6 +891,7 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
 }
 
 
+
 /* Add File */
 .channelAttachmentArea_b77158.scrollbarGhost__506b3.scrollbar__506b3 {
     background-color: transparent !important;
@@ -923,6 +938,11 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
     padding-left: 20px !important;
 }
 
+.markup__75297.editor__1b31f {
+    color: var(--text) !important;
+    caret-color: var(--text) !important;
+}
+
 /* POPUPS */
 
 /* Emoji */
@@ -938,6 +958,9 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
 .wrapper__4e6ce,
 .wrapper__14245 {
     background-color: var(--overlay) !important;
+}
+.label_c1e9c4 {
+    color: var(--text) !important;
 }
 
 .stickersNavItem__08434 {
